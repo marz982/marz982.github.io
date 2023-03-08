@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+    font-family: roboto;
+    transition: all .25s ease-in-out;
+    position: relative;
+}
+header {
+    width: 100%;
+    height: 350px;
+    background: hsl(216, 5%, 18%);
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.button {
+    background-color: #e7e7e7; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+div {
+    column-count: 3;
+    font-family: roboto;
+    font-size:small;
+}
+section #datos1{
+    background: hsl(216, 5%, 18%);
+    font-family: roboto;
+    text-align: left;
+    font-size:small;
+     
+}
+section #datos2{
+    background: hsl(227, 9%, 62%);
+    text-align: center;
+    font-family: roboto;
+    font-size:small;
+}
+section #datos3{
+    background: hsl(227, 19%, 72%);
+    text-align: right;
+    font-family: roboto;
+    font-size:small;
+}
